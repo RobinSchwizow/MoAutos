@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { navItems } from '../data/content.js';
 import Icon from './Icon.jsx';
+import { publicAsset } from '../utils/assets.js';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,7 +27,7 @@ export default function Navbar() {
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`} id="navbar" role="navigation" aria-label="Hauptnavigation">
       <div className="container nav-inner">
         <a href="#hero" className="nav-logo" aria-label="MoAutosDe Startseite" onClick={() => setIsOpen(false)}>
-          <img src="/images/logo.jpg" alt="MoAutosDe Autohändler Logo" className="logo-img" />
+          <img src={publicAsset('images/logo.jpg')} alt="MoAutosDe Autohändler Logo" className="logo-img" />
         </a>
         <button
           className="nav-toggle"

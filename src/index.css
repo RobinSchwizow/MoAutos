@@ -473,7 +473,7 @@ button {
   position: relative;
   background:
     linear-gradient(180deg, rgba(10,10,10,0.72) 0%, rgba(10,10,10,0.62) 100%),
-    url('/public/images/MoAutos_Maps_Bild.png') center/cover no-repeat;
+    url('/images/MoAutos_Maps_Bild.png') center/cover no-repeat;
 }
 
 .leistungen::before {
@@ -550,7 +550,7 @@ button {
   position: relative;
   background:
     linear-gradient(180deg, rgba(8,8,8,0.72) 0%, rgba(8,8,8,0.62) 100%),
-    url('/public/images/Neutral_1.png') center/cover no-repeat;
+    url('/images/Neutral_1.png') center/cover no-repeat;
 }
 
 .ablauf::before {
@@ -860,7 +860,7 @@ button {
   position: relative;
   background:
    /* linear-gradient(180deg, rgba(10,10,10,0.76) 0%, rgba(10,10,10,0.64) 100%), */
-    url('/public/images/Neutral_1.png') center/cover no-repeat;
+    url('/images/Neutral_1.png') center/cover no-repeat;
 }
 
 .kontakt::before {

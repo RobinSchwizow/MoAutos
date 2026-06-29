@@ -1,19 +1,22 @@
 import { serviceHighlights, whatsappUrl } from '../data/content.js';
 import Icon from './Icon.jsx';
+import { publicAsset } from '../utils/assets.js';
 
 export default function Hero() {
+  const heroImage = publicAsset('images/hero-bg.png');
+
   return (
     <section className="hero" id="hero" aria-label="Hero Bereich">
       <div className="hero-bg">
         <img
-          src="/images/hero-bg.png"
+          src={heroImage}
           alt="Schwarzer Mercedes vor Frankfurt Skyline bei Nacht"
           className="hero-img hero-img-backdrop"
           loading="eager"
           aria-hidden="true"
         />
         <img
-          src="/images/hero-bg.png"
+          src={heroImage}
           alt="Schwarzer Mercedes vor Frankfurt Skyline bei Nacht"
           className="hero-img hero-img-main"
           loading="eager"

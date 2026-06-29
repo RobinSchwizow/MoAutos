@@ -1,3 +1,5 @@
+import { publicAsset } from '../utils/assets.js';
+
 export const whatsappUrl = 'https://wa.me/491234567890';
 
 export const navItems = [
@@ -56,49 +58,49 @@ export const processSteps = [
     icon: 'fileText',
     title: 'Anfrage senden',
     description: 'Sie senden uns Ihre Fahrzeugwünsche ganz einfach über unser Formular.',
-    image: '/images/Ablauf/Karte1_Fahrzeuganfrage.png',
+    image: publicAsset('images/Ablauf/Karte1_Fahrzeuganfrage.png'),
   },
   {
     icon: 'searchPlus',
     title: 'Wir suchen passende Angebote',
     description: 'Wir vergleichen passende Angebote aus Deutschland und wählen die besten für Sie aus.',
-    image: '/images/Ablauf/Karte2_Farzeugsuche.png',
+    image: publicAsset('images/Ablauf/Karte2_Farzeugsuche.png'),
   },
   {
     icon: 'message',
     title: 'Sie wählen aus',
     description: 'Sie erhalten unsere Vorschläge und entscheiden sich für Ihr Wunschfahrzeug.',
-    image: '/images/Ablauf/Karte3_Fahrzeugauswahl.png',
+    image: publicAsset('images/Ablauf/Karte3_Fahrzeugauswahl.png'),
   },
   {
     icon: 'shield',
     title: 'Technische Fahrzeugprüfung',
     description: 'Das Fahrzeug wird vor dem Kauf von uns technisch geprüft.',
-    image: '/images/Ablauf/Karte4_Untersuchung.png',
+    image: publicAsset('images/Ablauf/Karte4_Untersuchung.png'),
   },
   {
     icon: 'users',
     title: 'Kaufabwicklung',
     description: 'Wir kümmern uns um die komplette Kaufabwicklung - sicher und transparent.',
-    image: '/images/Ablauf/Karte5_Vertrag.png',
+    image: publicAsset('images/Ablauf/Karte5_Vertrag.png'),
   },
   {
     icon: 'file',
     title: 'Zulassung',
     description: 'Wir übernehmen die Zulassung und alle notwendigen Formalitäten für Sie.',
-    image: '/images/Ablauf/Karte6_Zulassung.png',
+    image: publicAsset('images/Ablauf/Karte6_Zulassung.png'),
   },
   {
     icon: 'truck',
     title: 'Transport',
     description: 'Wir organisieren den sicheren Transport bis zu Ihnen nach Hause.',
-    image: '/images/Ablauf/Karte7_Transport.png',
+    image: publicAsset('images/Ablauf/Karte7_Transport.png'),
   },
   {
     icon: 'key',
     title: 'Übergabe an den Kunden',
     description: 'Sie erhalten Ihr Fahrzeug und können direkt losfahren. Viel Freude damit!',
-    image: '/images/Ablauf/Karte8_Übergabe.png',
+    image: publicAsset('images/Ablauf/Karte8_Übergabe.png'),
   },
 ];
 

@@ -1,12 +1,13 @@
 import { navItems, whatsappUrl } from '../data/content.js';
 import Icon from './Icon.jsx';
+import { publicAsset } from '../utils/assets.js';
 
 export default function Footer({ onOpenLegal, onOpenCookieSettings }) {
   return (
     <footer className="footer" role="contentinfo">
       <div className="container footer-inner">
         <div className="footer-brand">
-          <img src="/images/logo.jpg" alt="MoAutosDe Logo" className="footer-logo" loading="lazy" />
+          <img src={publicAsset('images/logo.jpg')} alt="MoAutosDe Logo" className="footer-logo" loading="lazy" />
           <p className="footer-tagline">Ihr Wunschfahrzeug - wir kümmern uns um den Rest.</p>
           <div className="footer-socials">
             <a href={whatsappUrl} className="social-link" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">
